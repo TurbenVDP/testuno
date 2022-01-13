@@ -1,0 +1,25 @@
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+
+*{
+    font-family: sans-serif;
+}
+
+.rainbow{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 800% 800%;
+    font-size: 69px;
+    animation: rainbow 8s ease 0s infinite normal none;
+    animation-play-state: running;
+}
+
+div li{
+    list-style: none;
+    list-style-type: ;
+}
